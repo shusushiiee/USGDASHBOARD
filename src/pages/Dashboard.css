@@ -1,0 +1,103 @@
+/* General tile container */
+.tiles-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  
+  /* Individual tile styling */
+  .tile {
+    background-color: #e0e5eb;
+    border-radius: 12px;
+    width: 290px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Header style */
+  .tile-header h3 {
+    margin: 0;
+    color: #4a4a4a;
+    font-size: 1.2rem;
+  }
+  
+  /* Footer style with count and icon */
+  .tile-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+  }
+  
+  /* Tile background colors */
+  .tile:nth-child(1) {
+    background-color: #d6dde5;
+  }
+  
+  .tile:nth-child(2) {
+    background-color: #a6f2e6;
+  }
+  
+  .tile:nth-child(3) {
+    background-color: #b7e3ff;
+  }
+  
+  .tile:nth-child(4) {
+    background-color: #d4d7ff;
+  }
+  
+  /* Icon styling */
+  .icon {
+    width: 18px;
+    height: 18px;
+    background-image: url('data:image/svg+xml;base64,<your-icon-data>'); /* Placeholder for icon */
+    background-size: cover;
+  }
+  .recent-activity {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 65%;
+    margin-right: 16px;
+  }
+  
+  .recent-activity h3 {
+    margin-bottom: 16px;
+  }
+
+  /* Dashboard.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5; /* Highlight on hover */
+}
+
+h3 {
+    margin-bottom: 15px;
+}
